@@ -1,0 +1,245 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Belanosima&display=swap');
+
+
+
+body{
+    margin: 0;
+    height: 100vh;
+    
+    
+    padding: 0;
+    flex-direction: column;
+    font-family: 'Belanosima', sans-serif;
+    border: 0;
+}
+
+.header{
+    background-color: #1F2937;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    font-size: 24px;
+    flex-shrink:1
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Palatino, sans-serif;
+}
+
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+
+.header > .left{
+    margin-left: 15%;
+    flex-shrink:1;
+    font-weight: bold;
+}
+.header > .right{
+    display:flex;
+    gap: 16px;
+    
+    margin-right: 15%;
+    flex-shrink: 1;
+    font-size: 20px;
+    font-weight: 100;
+}
+.main{
+    background-color:#1F2937;
+    
+    color: white;
+    display:flex;
+    height: 500px;
+    border: 2px;
+    justify-content: space-around;
+    border-top: 2px solid grey;
+   
+}
+
+.main > .leftSide{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+
+}
+
+.awesome{
+    font-size: 60px;
+}
+
+.description{
+    font-size: 30px;
+}
+
+.main > .leftSide > button{
+    
+    background-color: black;
+    padding: 16px;
+    border-radius: 15px;
+    font-family: 'Belanosima', sans-serif;
+    color: white;
+    margin-top: 25px;
+    width: 90px;
+    
+   
+    
+}
+
+.main > .rightSide > img{
+    width: 400px;
+    height: auto;
+}
+.main > .rightSide{
+    
+    display:flex;
+    align-self: center;
+    align-items: center;
+
+}
+
+.thirdSection{
+    background-color: white;
+    display:flex;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.thirdSection > .title{
+    font-size: 36px;
+    font-weight: extra bold;
+    color: #1F2937;
+}
+
+.thirdSection > .container {
+    display: flex;
+    gap: 70px;
+    
+  }
+
+
+
+.thirdSection > .container > .info{
+    display:flex;
+    flex-direction: column;
+    
+    gap: 8px;
+}
+
+.thirdSection > .container > .info > .box{
+    border: 2px solid #1F2937;
+    height: 150px;
+    width: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  
+
+  .fourthSection{
+    background-color: #E5E7EB;
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+   
+
+  }
+
+  .fourthSection > .top{
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+  }
+
+  .fourthSection > .bottom{
+    display: flex;
+    
+    margin-left: 700px;
+  }
+
+  .fifthSection{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+   
+  }
+
+  .fifthSection > .box{
+    color: white;
+    padding: 16px;
+    background-color: #03b1fc;
+    width: 600px;
+    border-radius: 15px;
+    height: 75px;
+    display:flex;
+    
+    align-items: center;
+    gap: 150px;
+  }
+
+  .fifthSection > .box > .left{
+    display:flex;
+    flex-direction: column;
+    gap: 16px; 
+  }
+
+  .fifthSection > .box > .left > .top{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .fifthSection > .box > .right{
+    display:flex;
+    justify-content: center;
+  }
+ 
+  .fifthSection > .box > .right  > button{
+    
+    
+    padding: 16px;
+    border-radius: 15px;
+    font-family: 'Belanosima', sans-serif;
+    width: 90px;
+    background-color: #03b1fc;
+    border-color: white;
+    color: white;
+    
+   
+    
+}
+
+    .footer{
+        display:flex;
+        height: 100px;
+        background-color: #1F2937;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+  
